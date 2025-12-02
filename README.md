@@ -30,6 +30,25 @@ Interface: Gradio web demo
 ✅ Test-Time Augmentation (TTA) for better outputs
 
 
+📘 Introduction to CycleGAN
+
+CycleGAN is a generative adversarial network (GAN) designed for unpaired image-to-image translation, where paired training data is unavailable.
+
+Unlike traditional supervised image translation methods, CycleGAN learns mappings between two image domains A and B using two generators and two discriminators:
+
+G<sub>A</sub> : A → B (e.g., Van Gogh paintings → photographs)
+
+G<sub>B</sub> : B → A (photographs → Van Gogh paintings)
+
+D<sub>A</sub>, D<sub>B</sub> discriminate between real and generated images in each domain
+
+To ensure meaningful translation, CycleGAN introduces cycle-consistency loss, which enforces that translating an image from one domain to the other and back should reconstruct the original image:
+
+𝐴→𝐵→𝐴≈𝐴, 𝐵→𝐴→𝐵≈𝐵
+
+In addition to adversarial loss, CycleGAN also uses identity loss to preserve color composition and prevent unnecessary changes when images are already in the target domain.
+
+This design enables CycleGAN to perform realistic style transfer without requiring paired datasets, making it well-suited for tasks such as artistic style transfer, season translation, and domain adaptation.
 
 
 Sample output:Real vs. CycleGAN-Generated Image
