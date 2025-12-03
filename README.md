@@ -1,4 +1,3 @@
-CycleGAN Project
 This project implements a CycleGAN-based unpaired image-to-image translation pipeline that learns bidirectional mappings between Van Gogh–style paintings and real-world photographs.
 It covers dataset analysis, balancing, model training, evaluation, visualization, and deployment via Gradio.
 
