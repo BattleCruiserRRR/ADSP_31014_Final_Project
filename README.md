@@ -49,6 +49,8 @@ Interface: Gradio web demo
 
 CycleGAN is a generative adversarial network (GAN) designed for unpaired image-to-image translation, where paired training data is unavailable.
 
+![cyclegan](https://github.com/user-attachments/assets/b17ee8df-87c7-47f2-b9d7-a9449fc6d7bc)
+
 Unlike traditional supervised image translation methods, CycleGAN learns mappings between two image domains A and B using two generators and two discriminators:
 
 G<sub>A</sub> : A → B (e.g., Van Gogh paintings → photographs)
