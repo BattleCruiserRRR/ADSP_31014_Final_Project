@@ -1,5 +1,6 @@
 # ADSP_31014_Final_Project
 CycleGAN Project
+
 This project implements a CycleGAN-based unpaired image-to-image translation pipeline that learns bidirectional mappings between Van Gogh–style paintings and real-world photographs.
 It covers dataset analysis, balancing, model training, evaluation, visualization, and deployment via Gradio.
 
@@ -14,6 +15,7 @@ Model: CycleGAN (ResNet generators, PatchGAN discriminators)
 Domains:
 
 -A → B: Van Gogh paintings → Real photographs
+
 -B → A: Real photographs → Van Gogh paintings
 
 Dataset: vangogh2photo
