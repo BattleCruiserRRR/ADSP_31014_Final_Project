@@ -8,25 +8,38 @@ The implementation is built on top of the official PyTorch CycleGAN framework an
 📌 Project Overview
 
 Task: Unpaired image-to-image translation
+
 Model: CycleGAN (ResNet generators, PatchGAN discriminators)
+
 Domains:
+
 -A → B: Van Gogh paintings → Real photographs
 -B → A: Real photographs → Van Gogh paintings
 
 Dataset: vangogh2photo
+
 Framework: PyTorch CycleGAN & Pix2Pix
+
 Interface: Gradio web demo
 
 🔧 Features
 
 ✅ Automatic environment setup (from environment.yml)
+
 ✅ GPU detection & training
+
 ✅ Dataset visualization and analytics
+
 ✅ Dataset balancing for stable training
+
 ✅ CycleGAN training from scratch
+
 ✅ Loss parsing and visualization
+
 ✅ Model testing and image comparison
+
 ✅ Gradio-based interactive demo
+
 ✅ Test-Time Augmentation (TTA) for better outputs
 
 
